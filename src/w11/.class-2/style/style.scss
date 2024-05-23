@@ -1,0 +1,37 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-size: 1.125rem;
+  line-height: 150%;
+}
+
+.grid {
+  margin-inline: auto;
+  max-width: 60rem;
+  padding-inline: 1.5rem;
+  background-color: oklch(0.95 0 0);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.text {
+  animation-name: reveal;
+  // animation-duration: 1000ms;
+  animation-timeline: view();
+  // view 뒤에 괄호 ㅣ필수!
+}
+
+@keyframes reveal {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

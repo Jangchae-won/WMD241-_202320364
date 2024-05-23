@@ -34,7 +34,7 @@ body {
   padding-left: 0;
   margin-block: 0;
   -moz-column-gap: 35px;
-  column-gap: 35px;
+       column-gap: 35px;
   flex-direction: row;
 }
 .navigation__menu-group--log {
@@ -70,7 +70,7 @@ body {
   display: grid;
   margin-inline: auto;
   -moz-column-gap: 60px;
-  column-gap: 60px;
+       column-gap: 60px;
   grid-template-columns: 17.5rem 3fr;
 }
 .feature__search-input {
@@ -170,7 +170,7 @@ body {
   margin-bottom: 64px;
   row-gap: 32px;
   -moz-column-gap: 32px;
-  column-gap: 32px;
+       column-gap: 32px;
   margin-inline: auto;
 }
 
@@ -300,7 +300,7 @@ h4 {
   justify-content: space-between;
   row-gap: 32px;
   -moz-column-gap: 16px;
-  column-gap: 16px;
+       column-gap: 16px;
   align-items: center;
   padding-block: 80px;
   max-width: 1160px;
